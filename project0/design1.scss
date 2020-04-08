@@ -1,0 +1,13 @@
+$marron: #5d5b6a;
+$green: #758184;
+$cream: #cfb495;
+$rosa: #f5cdaa;
+
+%grid{
+    padding: 5%;
+}
+
+.music{
+    @extend %grid;
+    background-color: $cream;
+}
