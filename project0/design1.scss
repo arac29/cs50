@@ -3,16 +3,43 @@ $green: #758184;
 $cream: #cfb495;
 $rosa: #f5cdaa;
 
-%grid{
-    padding: 5%;
+%inherit{
+    font-size: 3em;
 }
 
 .music{
-    @extend %grid;
+    
     background-color: $cream;
 }
 aside{
     a{
         color:black;
+    }
+}
+table{
+
+    #planet{
+        color:$green; 
+    }
+    #glyph{
+        height: 100%;
+    }
+    td{
+        background-color:lightgoldenrodyellow;
+        
+        width:20%;
+    }
+    border:solid $marron;
+}
+.test{
+    @extend %inherit;
+    @media screen and(min-width:500px){
+        background-color: $marron ;
+        color: red;
+    }
+    @media screen and (max-width:500px){
+        
+        background-color:$rosa;
+        color:$green;
     }
 }

@@ -1,8 +1,40 @@
-i{
-
-    color:black;
-
+.test {
+  font-size: 3em;
 }
-a{
-    color:black;
+
+.music {
+  background-color: #cfb495;
 }
+
+aside a {
+  color: black;
+}
+
+table {
+  border: solid #5d5b6a;
+}
+table #planet {
+  color: #758184;
+}
+table #glyph {
+  height: 100%;
+}
+table td {
+  background-color: lightgoldenrodyellow;
+  width: 20%;
+}
+
+@media screen and (min-width: 500px) {
+  .test {
+    background-color: #5d5b6a;
+    color: red;
+  }
+}
+@media screen and (max-width: 500px) {
+  .test {
+    background-color: #f5cdaa;
+    color: #758184;
+  }
+}
+
+/*# sourceMappingURL=design.css.map */
